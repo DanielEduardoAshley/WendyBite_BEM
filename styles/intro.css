@@ -1,0 +1,165 @@
+
+body{
+    background-color: rgb(37, 37, 37);
+    border-color: darkslategray;
+    border-left: 50px;
+    border: solid darkgrey;
+    color: white;
+    margin-left: 10%; 
+    margin-right: 10%;
+    /* position: relative; */
+}
+table{
+border-style: dashed;
+color: blue;
+
+}
+.name{
+    text-align: center;
+    color: white;
+    display:block;
+    font-style: italic;
+    font-size: 45px;
+}
+
+.headers{
+    /* display: inline-block; */
+    /* display: inline-block; */
+    font-size: 19px;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    text-align: center;
+
+}
+
+.resumeHeader{
+    color: white;
+    font-size: 20px;
+    margin-left: 10%;
+    margin-top:5%;
+
+}
+
+.links{
+    /* text-align: right; */
+    display: block;
+    text-align: center;
+    font-style: bolder;
+    font-size: 17px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+ul{
+    list-style-type: square;
+}
+
+.aboutme{
+    /* justify-content: center; */
+    /* text-align: center; */
+    color:white;
+    display: inline-block;
+}
+.aboutmeResume{
+    /* justify-content: center; */
+    /* text-align: center; */
+    color:green;
+    display: inline-block;
+}
+.resume{
+    display: inline-block;
+    /* text-align: center; */
+    color:green;
+    /* justify-content: center; */
+
+}
+.resumeResume{
+    display: inline-block;
+    /* text-align: center; */
+    color:white;
+    /* justify-content: center; */
+
+}
+.experience{
+    color:white;
+    margin-left: 15%;
+    font-family: 'Franklin Gothic Medium';
+
+}
+
+.relevant{
+    color:white;
+    margin-left: 17%;
+}
+
+hr{
+    color:blue;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+/* table{
+    position: absolute
+
+} */
+
+.aboutMeHeader{
+    color:white;
+    font-size: 20px;
+    /* text-align: center; */
+    display: block;
+    margin-top: 5%; 
+    margin-bottom: 5%;
+    margin-left: 10%;
+
+}
+.aboutmetxt{
+    font-size: 21px;
+    display:block;
+    color:white;   
+    line-height:30px;
+    margin-block-start:1%;
+    margin-left:10%;
+    font-family: Cambria;
+}    
+
+.aboutmetxt.Resume{
+    margin-block-start:5%;
+    margin-right: 10%;
+
+}
+
+.class{
+    display:inline-block;
+
+
+
+}
+
+.photo{
+    position: absolute; visibility: visible; left: 50%; top: 45%; z-index: 200;
+    border: darkgrey solid;
+    padding: 5px;      
+}
+
+/* .resume{
+    text-align: center;
+    color:green;
+    display:inline-block;
+} */
+
+.email{
+    color: green;
+}
+
+.twitter{
+    color: green;
+}
+
+.instagram{
+    color: green;
+}
+
+.linkedin{
+    color: green;
+}
