@@ -1,4 +1,6 @@
-
+*{
+    box-sizing: border-box;
+}
 body{
     background-color: rgb(37, 37, 37);
     border-color: darkslategray;
@@ -7,7 +9,7 @@ body{
     color: white;
     margin-left: 10%; 
     margin-right: 10%;
-    /* position: relative; */
+    /* position: absolute; */
 }
 table{
 border-style: dashed;
@@ -110,7 +112,7 @@ hr{
     display: block;
     margin-top: 5%; 
     margin-bottom: 5%;
-    margin-left: 10%;
+    /* margin-left: 1%; */
 
 }
 .aboutmetxt{
@@ -118,8 +120,9 @@ hr{
     display:block;
     color:white;   
     line-height:30px;
-    margin-block-start:1%;
+    margin-block-start:10px;
     margin-left:10%;
+    margin-right:10%;
     font-family: Cambria;
 }    
 
@@ -137,9 +140,12 @@ hr{
 }
 
 .photo{
-    position: absolute; visibility: visible; left: 50%; top: 45%; z-index: 200;
-    border: darkgrey solid;
-    padding: 5px;      
+    /* position: absolute; visibility: visible; left: 47%; top: 35%; z-index: 200; */
+    float: right;
+    /* border: darkgrey solid; */
+
+    padding-left: 10px;
+    /* padding-right: 2%;       */
 }
 
 /* .resume{
@@ -162,4 +168,8 @@ hr{
 
 .linkedin{
     color: green;
+}
+
+.border{
+    padding: 5%
 }
